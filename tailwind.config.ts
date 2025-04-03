@@ -7,13 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    darkMode: "class",
     extend: {
       colors: {
         primary: "var(--color-primary)",
-        primary2: "var(--color-primary2)",
         secondary: "var(--color-secondary)",
-        bgPrimary: "var(--color-bg-primary)",
-        tBase: "var(--color-text-base)",
+        textPrimary: "var(--color-text-base)",
       },
     },
   },
